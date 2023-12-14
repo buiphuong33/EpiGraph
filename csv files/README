@@ -1,0 +1,5 @@
+These annotations can be found in epitope3d
+https://biosig.lab.uq.edu.au/epitope3d/data
+
+We used epitope3d_dataset_180_Train.csv and epitope3d_dataset_20_Test.csv as training set
+and used epitope3d_dataset_45_Blind_Test.csv as independent test set

@@ -1,5 +1,5 @@
 # EpiGraph
-B cell epitope prediction using graph attention network  <br/> and ESM-based pretrained protein model embeddings
+B cell epitope prediction by capturing spatial clustering property of the epitopes using graph attention network  <br/> 
 <br/> (Sungjin Choi, Dongsup Kim)
 
 # Webserver

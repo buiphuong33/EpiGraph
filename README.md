@@ -6,6 +6,12 @@ B cell epitope prediction by capturing spatial clustering property of the epitop
 User friendly webserver is available at https://epigraph.kaist.ac.kr/
 
 # Installation (In Ubuntu)
+
+```python
+pip install "setuptools<58.0" # setuptools setting   
+pip install bioservices # wheels setting
+```
+
 1. Generate the conda environment
 ```python
 conda env create --file conda_env.yaml --name Bepitope

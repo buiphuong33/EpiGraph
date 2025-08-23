@@ -546,7 +546,7 @@ def esmfold_structure_module_only_15B():
     The 15B parameter ESM-2 was not trained out to 500K updates
     This is a model designed to test the capabilities of the language model
     when ablated for number of parameters in the language model.
-    See table S1 in (Lin et al, 2022).,
+    See table S1 in (Lin et al, 2022).
     """
     import esm.esmfold.v1.pretrained
     return esm.esmfold.v1.pretrained.esmfold_structure_module_only_15B()

@@ -40,7 +40,7 @@ yacs==0.1.6
 torch
 torchvision
 torchaudio
-pyg-lib
+#pyg-lib
 torch-scatter
 torch-sparse
 torch-cluster

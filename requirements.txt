@@ -41,11 +41,11 @@ torch
 torchvision
 torchaudio
 #pyg-lib
-torch-scatter
-torch-sparse
-torch-cluster
-torch-spline-conv
-torch-geometric
+#torch-scatter
+#torch-sparse
+# torch-cluster
+# torch-spline-conv
+# torch-geometric
 
 # Các gói pip thêm (đa số ok)
 absl-py

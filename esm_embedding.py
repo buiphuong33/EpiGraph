@@ -4,10 +4,15 @@ import networkx as nx
 import numpy as np
 import torch
 import os
-
+import esm
 # load esm2 model
 def _load_esm_model(model_name: str = "esm2_t33_650M_UR50D"): 
-    return torch.hub.load("facebookresearch/esm", model_name)
+    if model_name == "esm2_t33_650M_UR50D":
+        return esm.pretrained.esm2_t33_650M_UR50D()
+    elif model_name.startswith("esm_if"):
+        return esm.pretrained.esm_if1_gvp4_t16_142M_UR50()
+    else:
+         return torch.hub.load("facebookresearch/esm", model_name)
 
 
 def esm2_residue_embedding(
